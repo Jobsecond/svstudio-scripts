@@ -25,6 +25,11 @@ function getTranslations(langCode)
       {"Randomize Parameters", "パラメータの乱数化"},
       {"Parameter Type", "パラメータタイプ"}
     }
+  elseif langCode == "zh-cn" then
+    return {
+      {"Randomize Parameters", "参数随机化"},
+      {"Parameter Type", "参数类型"}
+    }
   end
   return {}
 end

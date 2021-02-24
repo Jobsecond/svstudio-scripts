@@ -17,6 +17,13 @@ function getTranslations(langCode) {
       ["Downscaling factor", "縮小係数"],
       ["Relative to the selection start", "選択範囲の開始を基準とする"]
     ];
+  } else if(langCode == "zh-cn") {
+    return [
+      ["Scale Selected Notes", "缩放选中的音符"],
+      ["Upscaling factor", "放大系数"],
+      ["Downscaling factor", "缩小系数"],
+      ["Relative to the selection start", "相对于选区的开始"]
+    ];
   }
   return [];
 }

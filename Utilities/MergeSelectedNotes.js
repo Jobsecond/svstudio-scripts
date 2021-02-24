@@ -15,6 +15,11 @@ function getTranslations(langCode) {
       ["Merge Selected Notes", "選択したノートをマージ"],
       ["Can't merge selected notes.", "選択したノートをマージできません。"]
     ];
+  } else if(langCode == "zh-cn") {
+    return [
+      ["Merge Selected Notes", "合并选中的音符"],
+      ["Can't merge selected notes.", "无法合并选中的音符。"]
+    ];
   }
   return [];
 }

@@ -12,6 +12,10 @@ function getTranslations(langCode) {
     return [
       ["Split Selected Notes", "選択したノートを分割"]
     ];
+  } else if(langCode == "zh-cn") {
+    return [
+      ["Split Selected Notes", "拆分选中的音符"]
+    ];
   }
   return [];
 }

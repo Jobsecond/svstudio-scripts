@@ -19,6 +19,15 @@ function getTranslations(langCode) {
       ["Current Track", "現在のトラック"],
       ["Entire Project", "プロジェクト全体"],
     ];
+  } else if(langCode == "zh-cn") {
+    return [
+      ["Remove Short Silences", "去除短的无声部分"],
+      ["Threshold", "阈值"],
+      ["Scope", "范围"],
+      ["Selected Notes", "选中的音符"],
+      ["Current Track", "当前音轨"],
+      ["Entire Project", "整个工程"],
+    ];
   }
   return [];
 }
